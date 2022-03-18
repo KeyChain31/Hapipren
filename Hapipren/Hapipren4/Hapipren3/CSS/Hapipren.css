@@ -1,0 +1,117 @@
+body {
+  font-family: sans-serif;
+  font-weight: bolder;
+  margin: 0;
+  color: black;
+  background-image: url(/Hapipren3/IMG/aesthetic.jpg);
+  background-size: auto;
+  background-color: aqua;
+}
+
+.members {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.members .member {
+  margin: 3em 5em;
+}
+
+.members .member1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.members .member1 .pic img {
+  border: #d4af37 solid 5px;
+  width: 15em;
+  height: 20em;
+  border-radius: 2em;
+}
+
+.members .member1 .desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 2em;
+  top: 0;
+}
+
+.members .member1 .desc .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.members .member1 .desc .info p {
+  display: block;
+}
+
+.members .member1 .desc .info .name {
+  margin-bottom: 1.5em;
+  font-size: 1.5em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #d4af37;
+  border-bottom: black solid 3px;
+}
+
+.members .member1 .desc .info .descs {
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+}
+
+.members .member1 .desc .etc {
+  border: goldenrod solid 5px;
+  border-radius: 1em;
+  padding: 0 .5em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.members .member1 .desc .etc p {
+  display: block;
+}
+
+.member {
+  background-image: url(/Hapipren3/IMG/swirl.jpg);
+  background-size: cover;
+  background-color: aqua;
+  border-radius: 2em;
+  padding: 4em 7em 4em 4em;
+}
+/*# sourceMappingURL=Hapipren.css.map */

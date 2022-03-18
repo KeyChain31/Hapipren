@@ -1,0 +1,84 @@
+body {
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin: 0;
+    color: black;
+    background-image: url(/Hapipren3/IMG/aesthetic.jpg);
+    background-size: auto;
+    background-color: aqua;
+}
+
+
+.members {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    .member {
+        margin: 3em 5em;
+    }
+    .member1 {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        .pic {
+            
+            img {
+                border: rgb(212,175,55) solid 5px;
+                width: 15em; 
+                height: 20em;
+                border-radius: 2em;
+                
+            }
+        }
+        .desc {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 2em;
+            top: 0;
+            .info {
+                display: flex;
+                flex-direction: column;
+                p {
+                    display: block;
+                }
+                    .name { 
+                        margin-bottom: 1.5em;
+                        font-size: 1.5em;
+                        font-family: Georgia, 'Times New Roman', Times, serif;
+                        color: rgb(212,175,55);
+                        border-bottom: black solid 3px
+                        
+                    }
+
+                .descs {
+                    font-family: 'Courier New', Courier, monospace;
+                    font-style: italic;
+                }
+                
+            }
+            .etc {
+                border: rgb(218,165,32) solid 5px;
+                border-radius: 1em;
+                padding: 0 .5em;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                p {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+.member {
+    background-image: url(/Hapipren3/IMG/swirl.jpg);
+    background-size: cover;
+    background-color: aqua;
+    border-radius: 2em;
+    padding: 4em 7em 4em 4em;
+}
+// :)                                                                                                                                                 
